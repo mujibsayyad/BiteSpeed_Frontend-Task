@@ -1,0 +1,179 @@
+/************************** Header **************************/
+
+.main_chat_flow_header {
+  height: 4rem;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error_container {
+  flex: 1;
+  text-align: center;
+}
+
+.error {
+  background: #fbcccb;
+  font-weight: bold;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  margin: auto;
+}
+
+.save_btn {
+  padding: 0.7rem 1.5rem;
+  margin-right: 8rem;
+  background-color: white;
+  color: #4353ff;
+  border: 1px solid #878893;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/************************** Main react flow **************************/
+
+.main_react_flow {
+  display: flex;
+}
+
+.react_flow_wrapper {
+  width: 75vw;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.react-flow__node,
+.nopan,
+.selectable {
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.45);
+  border-radius: 0.4rem;
+  width: 15rem;
+}
+
+.selected {
+  border: 1px solid #4353ff;
+}
+
+.node_header_heading {
+  background: #b1f0e2;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.node_header_text_icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.node_header_heading span {
+  font-size: 0.2rem;
+}
+
+.node_header_label {
+  padding: 0.8rem;
+  font-weight: 500;
+}
+
+.node_header_label h5 {
+  font-weight: 500;
+}
+
+.chat_icon_blue {
+  color: #4353ff;
+}
+
+.chat_icon_black {
+  color: black;
+  height: 11px;
+}
+
+.whatapp_icon_bg {
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 100%;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+/************************** Setting Panel **************************/
+
+.settings_panel {
+  width: 25vw;
+  height: 100vh;
+  border-left: 2px solid #e0e0e0;
+  border-top: 2px solid #e0e0e0;
+}
+
+.setting_panel_header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 0.5rem;
+}
+
+.setting_panel_header_arrow {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.setting_panel_header_message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.settings_panel_textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 2rem;
+}
+
+.settings_panel_textarea textarea {
+  padding: 0.4rem;
+  border: 1px solid #bababa;
+  border-radius: 0.5rem;
+}
+
+.settings_panel_textarea label {
+  color: #bababa;
+}
+
+.btn_box {
+  padding: 1rem;
+}
+
+.message_btn {
+  padding: 1rem 3rem;
+  margin-right: 8rem;
+  background-color: white;
+  color: #4353ff;
+  border: 1px solid currentColor;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
